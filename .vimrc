@@ -132,7 +132,7 @@ nnoremap  <leader>fi :call cscope#find('i', expand('<cword>'))<CR>
 if has("cscope")
   set csprg=/usr/bin/cscope
   set csto=0
-  set cst
+  "set cst
   set nocsverb
   " add any database in current directory
   if filereadable("cscope.out")
