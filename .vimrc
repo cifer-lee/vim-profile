@@ -103,6 +103,10 @@ set tabstop=4
 " autoindent 4 spaces too
 set shiftwidth=4
 
+" make the *case* lable align with *swith* in swith{ case: break } block of c
+" language
+set cino=:0
+
 " you should have installed the 'clue' color scheme, i.e. ~/.vim/colors/clue.vim
 "colorscheme clue
 
