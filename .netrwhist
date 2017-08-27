@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/mnt/temp/cifer/miio_sdk/wmsdk-2.13.82.2/tools/package/fw_tools'
-let g:netrw_dirhist_2='/home/cifer/miio_sdk/miio_app/app_proj/Source/include/lib'
-let g:netrw_dirhist_3='/mnt/temp/cifer/json-c'
