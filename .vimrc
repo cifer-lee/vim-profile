@@ -108,7 +108,7 @@ set shiftwidth=4
 set cino=:0
 
 " you should have installed the 'clue' color scheme, i.e. ~/.vim/colors/clue.vim
-"colorscheme clue
+colorscheme solarized
 
 "
 " cscope configuration
@@ -134,7 +134,7 @@ nnoremap  <leader>fi :call cscope#find('i', expand('<cword>'))<CR>
 "
 " auto load cscope db
 if has("cscope")
-  set csprg=/usr/bin/cscope
+  set csprg=/usr/local/bin/cscope
   set csto=0
   "set cst
   set nocsverb
