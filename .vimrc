@@ -110,6 +110,11 @@ set cino=:0
 " you should have installed the 'clue' color scheme, i.e. ~/.vim/colors/clue.vim
 colorscheme solarized
 
+" for c++ lambda
+setlocal cindent
+" handle lambda correctly
+setlocal cino=j1,(0,ws,Ws
+
 "
 " cscope configuration
 "
